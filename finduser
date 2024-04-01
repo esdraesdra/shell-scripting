@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# finduser --- verifica se o usuário chamado pelo primeiro argumento está ligado ao sistema
+who | grep $1
